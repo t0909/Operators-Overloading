@@ -26,6 +26,7 @@ class Complex
          
          temp.real = real + obj.real;
          temp.img =  img + obj.img;
+         return temp;
      }
      
      void print()
